@@ -9,6 +9,7 @@ import {
   MdFoodBank,
   MdAttachMoney,
 } from "react-icons/md";
+import { FaRupeeSign } from "react-icons/fa";
 import Loader from "./Loader";
 import { deleteObject, ref } from "firebase/storage";
 import { storage } from "./firebase.config";
@@ -254,7 +255,7 @@ const CreateContainer = () => {
           </div> */}
 
           <div className="w-full py-2 border-b border-gray-300 flex items-center gap-2">
-            <MdAttachMoney className="text-gray-700 text-2xl" />
+            <FaRupeeSign className="text-gray-700 text-2xl" />
             <input
               type="text"
               required
